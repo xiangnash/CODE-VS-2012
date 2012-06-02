@@ -1,0 +1,14 @@
+
+A extend-path solutions to CODE VS tower defense challenge
+
+====
+	
+codevs.h:
+	A simulator of the tower defense game
+
+pathEx.h:
+	place towers with all the no-path EMPTY blocks be weighted
+
+simple.h
+	place towers around the extended path
+

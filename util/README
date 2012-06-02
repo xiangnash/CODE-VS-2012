@@ -1,0 +1,31 @@
+
+Utility tools for offline algorithms of CODE VS:
+    directAns.out:
+	direct answers to CODE VS client
+    restoremap.out:
+	restore the orignal challenges of CODE VS
+
+
+== Direct answer your solutions to CODE VS client ==
+1. Copy your solutions(in CODE VS client) to ../data/output.txt and ../data/input.txt
+input.txt: 
+output.txt:
+map.txt:
+
+2. Generate the answer to answer.h
+./writeAns.out < ../data/map.txt  > ./answer.h 
+
+3. Recompile and get a executable solution:
+g++ directAns.cpp -o directAns.out
+
+4. directAns.out could be upload to CODE VS client.
+
+
+
+== Restore the map data ==
+./restoremap.out < ../data/input.txt > ../data/map.txt
+
+output.txt: challenge data in OUTPUT block of CODE VS client which is refer to the stdin stream
+input.txt:  solution data in INPUT block of CODE VS client which is refer to the stdout stream
+
+map.txt: The restored orignal map
