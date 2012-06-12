@@ -1,0 +1,9 @@
+
+Genetic Algorithm for the Tower Defence Challenge
+
+Genetic.cpp:
+	implementation of a naive genetic algorithm(simple generate 1/16 state of a position)
+
+TwoPhaseGenetic.cpp:
+	Step 1: generate the all the positions of tower and check the validity;
+	Step 2: generate the tower type and calculate the answer.
